@@ -1,0 +1,168 @@
+body{
+  height:50vh;
+  width:100vw ;
+  background-color:#8577dc;
+  
+
+}
+
+
+.border{
+  height:92vh;
+  width:95vw ;
+  left:0;
+  right: 0;
+  top:0;
+  bottom: 0;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+  border-color: #ffffff;
+  border-width: 8px;
+  border-style: solid;
+  border-radius:50px;
+  display: flex;
+  position: static;
+}
+
+
+
+.home{
+  margin-top: 10%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  position: absolute;
+}
+
+
+
+.text{
+  margin-left: 4vw;
+
+}
+
+
+.title{
+  margin:0;
+  font-size: 80px;
+  font-family:Titan One;
+  font-weight:100;
+  color: #ffffff;
+}
+
+
+
+
+.def{
+  color: #ffffff;
+  font-family:Inclusive Sans;
+  font-size:24px;
+  width: 40vw;
+  line-height: 5.5vh;
+  margin-top: 7px;
+}
+
+
+
+
+
+
+
+.eyes{
+  margin-left:5% ;
+  margin-top: 5%;
+  display:flex;
+  justify-content: space-evenly;
+  
+}
+
+.eye{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.eyeColor{
+  background-color:#579CC2;
+  padding:0;
+  width: 175px;
+  height: 170px;
+  border-radius: 50%;
+  position : absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 1%;
+  clip-path: polygon(0% 0%, 0% 100%, 100% 100%, 100% 35%, 50% 50%, 95% 0%)
+}
+
+
+
+.eyeBall{
+  background-color:rgb(240, 240, 240);
+  padding:0;
+  width: 275px;
+  height: 270px;
+  border-radius: 50%;
+  top:0;
+  left:0;
+  margin-left: 5%;
+  display: flex;
+}
+
+
+.mouth{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left:-10% ;
+}
+
+
+.startButton{
+  margin-top: 5%;
+  margin-left: 17%;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 17px;
+  padding-bottom: 17px;
+  font-size: 30px;
+  font-family:Inclusive Sans;
+  font-weight: bold;
+  background-color:#F65C78;
+  color:#ffffff;
+  text-decoration: none;
+  border-width: 0;
+  border-radius: 50px;
+  opacity: 0.84;
+  
+
+}
+
+.startButton:hover{
+  background-color:#fa3a5d;
+  color:#ffffff;
+  cursor: pointer;
+  transition: 0.4s;
+
+}
+
+
+
+
+@media (max-width:1200px){
+  .eyeBall{
+    width: 230px;
+    height: 200px;
+    border-radius: 50%;
+  }
+
+  .eyeColor{
+    width: 136px;
+    height: 130px;
+    border-radius: 50%;
+  }
+}
+
+

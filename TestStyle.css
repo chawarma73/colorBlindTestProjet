@@ -1,0 +1,153 @@
+
+.test{
+  display: grid;
+  grid-template-columns:1fr 1fr;
+  
+
+}
+
+.droite{
+  margin-right: 9%;
+}
+
+
+.chiffre {
+  width: 90%;
+  margin-left: 7%;
+  margin-top: 15%;
+}
+
+.question{
+  margin:0;
+  font-size: 65px;
+  font-family:Titan One;
+  font-weight:100;
+  color:black;
+  display: flex;
+  justify-content: center;
+  margin-top:13% ;
+  
+}
+
+
+.cal{
+  margin-top: 40px;
+  display:grid;
+  grid-template-columns:120px 120px 120px;
+  column-gap:40px;
+  row-gap:45px;
+  justify-content: center;
+
+}
+
+
+
+.numb{
+  margin-top: 5%;
+  padding-left:25px ;
+  padding-right: 25px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 32px;
+  font-family:Inclusive Sans;
+  font-weight: bold;
+  background-color:#f43155;
+  color:#ffffff;
+  text-decoration: none;
+  border-width: 0;
+  border-radius: 10px;
+}
+.noth{
+  margin-top: 5%;
+  padding-left:25px ;
+  padding-right: 25px;
+  padding-top: 17px;
+  padding-bottom: 17px;
+  font-size: 32px;
+  font-family:Inclusive Sans;
+  font-weight: bold;
+  background-color:#f43155;
+  color:#ffffff;
+  text-decoration: none;
+  border-width: 0;
+  border-radius: 10px;
+
+  
+}
+
+.numb,
+.noth{
+  cursor:pointer;
+
+}
+
+
+
+.numb:hover,
+.noth:hover{
+  color:#ffffff;
+  cursor: pointer;
+  transition: 0.4s;
+  background-color:#f2637d;
+
+}
+
+.numb:focus,
+.noth:focus{
+  color:#ffffff;
+  cursor: pointer;
+  transition: 0.4s;
+  background-color:#579CC2;
+
+}
+
+
+
+
+.suivant{
+  grid-column: span 2;
+  padding-left: 90px;
+  padding-top: 18px;
+  font-size: 32px;
+  font-family:Inclusive Sans;
+  font-weight: bold;
+  background-color:#8577dc;
+  color:#ffffff;
+  text-decoration: none;
+  border-width: 0;
+  border-radius: 8px;
+  opacity: 0.84;  
+
+}
+
+.suivant:hover{
+  background-color:rgb(115, 98, 201);
+  color:#ffffff;
+  cursor: pointer;
+  transition: 0.4s;
+
+}
+
+
+
+.border{
+  height:90vh;
+  width:95vw ;
+  left:0;
+  right: 0;
+  top:100px;
+  bottom: 0;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+  border-color: #df2020;
+  border-width: 8px;
+  border-right-width:0 ;
+  border-left-width:0 ;
+  border-style: solid;
+  display: flex;
+  position: static;
+  display: flex;
+  justify-content:center;
+}
